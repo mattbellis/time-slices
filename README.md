@@ -12,7 +12,7 @@ This can be...challenging.
 Read in and display two images using the opencv python library. 
 
 '''
-python test_your_opencv_installation.py
+  python test_your_opencv_installation.py
 '''
 
 "Add" two images.
