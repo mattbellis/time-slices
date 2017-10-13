@@ -30,26 +30,17 @@ for i in range(0,lx):
         r = dist(val0,val1)
         dists.append(r)
 
-        if r>28:
+        if r>15: # 15 gives a good chimera image.
             imgnew[i][j] = val1
 
-#plt.hist(dists)
-#plt.show()
+# Histogram the distances between the pixels
+plt.figure()
+plt.hist(dists)
+plt.show()
 
-#imgnew = img0 + img1
-
+# Show the two original images and the combined one.
 cv2.imshow('image',imgnew)
 cv2.imshow('image0',img0)
 cv2.imshow('image1',img1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-#cv2.waitKey(0)
-#cv2.destroyAllWindows()
-
-#cv2.imshow('image',img1)
-#cv2.waitKey(0)
-#cv2.destroyAllWindows()
-
-
-
