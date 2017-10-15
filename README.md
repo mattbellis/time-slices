@@ -43,3 +43,11 @@ sh run_add_multiple_files.sh
 ```
 
 This should produce something that looks like a multiple exposure image, though a bit pixelated. 
+
+## Production grade version!
+
+Everything should be able to be run with the following Jupyter-notebook script
+
+```
+take_a_move_and_slice_it_up.ipynb
+```
